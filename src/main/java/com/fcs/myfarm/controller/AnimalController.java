@@ -17,12 +17,12 @@ public class AnimalController {
     @Autowired
     AnimalService animalService;
 
-    @GetMapping("/animal/{id}")
+    @GetMapping("/animals/{id}")
     public Optional<Animal> findByID(@PathVariable(value = "id") String id){
         return animalService.findById(id);
     }
 
-    @GetMapping("/animal")
+    @GetMapping("/animals")
     public List<Animal> findAll(){
         return animalService.findAll();
     }
