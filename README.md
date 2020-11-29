@@ -18,7 +18,7 @@ Build Restful CRUD API for a simple farm application using Spring Boot, Postgres
 git clone git@github.com:fernandobecker/myfarm.git
 ```
 
-**2. Build Docker
+**2. Build Docker**
 
 ```bash
 docker-compose up
