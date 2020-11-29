@@ -19,6 +19,7 @@ git clone git@github.com:fernandobecker/myfarm.git
 ```
 
 **2. Build Docker
+
 ```bash
 docker-compose up
 ```
