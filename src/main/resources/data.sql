@@ -1,0 +1,3 @@
+INSERT INTO fase (cd_fase,description,initial) VALUES (1,'Cobertura','MATING');
+INSERT INTO type_farm (cd_type_farm,description,initial) VALUES (1, 'tipo farm','UCC');
+INSERT INTO animal (id,birth_date,breed,location,name,purchase_weight,squad_entry,status,tracking_code,type,cd_fase,cd_type_farm) VALUES ('0013c46a-f50f-4072-a165-f14aed3d3750','2017-06-29 02:53','ac-7077/m','Sala 5','SAX648','98.934','2017-06-29 02:53',3,'742B7DC9863349D2A88A9AE6AC3DDABD','POULTRY',1,1);
