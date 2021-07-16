@@ -32,7 +32,7 @@ mvn spring-boot:run
 
 The app will start running at <http://localhost:8080>.
 
-## Explore Rest APIs SWaggger
+## Explore Rest APIs SWagger
 
 http://localhost:8080/swagger
 
