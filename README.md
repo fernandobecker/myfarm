@@ -32,13 +32,13 @@ mvn spring-boot:run
 
 The app will start running at <http://localhost:8080>.
 
-## Explore Rest APIs SWagger
+## Explore Rest APIs Swagger
 
 http://localhost:8080/swagger
 
 The app defines following CRUD APIs.
 
-    GET /animals/all
+    GET /animals
     
     GET /animals/{id}
 
