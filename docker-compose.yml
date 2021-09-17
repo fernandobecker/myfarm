@@ -2,7 +2,7 @@ version: '3.1'
 services:
 
   myfarm:
-    build: ../
+    build: .
     container_name: myfarm
     ports:
       - "18080:8080"
