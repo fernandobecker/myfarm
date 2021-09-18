@@ -5,9 +5,7 @@ services:
     build: .
     container_name: myfarm
     ports:
-      - "18080:8080"
-      - "18787:8787"
-    restart: always
+      - "8080:8080"
     depends_on:
       - postgresqldb
 
